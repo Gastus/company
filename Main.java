@@ -65,7 +65,7 @@ public class Main {
 
     }
 
-    public static void printAnswer(double answer, boolean toRomeNum){
+    public static void printAnswer(int answer, boolean toRomeNum){
         if(!toRomeNum){
             System.out.println("="+answer);
         }else{
